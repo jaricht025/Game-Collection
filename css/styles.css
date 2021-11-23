@@ -1,0 +1,2734 @@
+html {
+  box-sizing:border-box;
+}
+
+*, *:before, *:after {
+  box-sizing:inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+body{
+  background-color: black;
+}
+
+h1{
+  color: white;
+}
+
+h3{
+  color: white;
+}
+
+p{
+  color: white;
+}
+
+hr{
+  color: white;
+}
+
+li{
+  display: inline-block;
+}
+
+a:link{
+  color: #16A4F3;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #16A4F3;
+  text-decoration: none;
+}
+
+a:hover{
+  color: white;
+}
+
+a:active{
+
+}
+
+@media (max-width:800px){
+  /* logo phone css starts*/
+
+  .logotop{
+  display: block;
+  }
+
+  .logo{
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+  }
+
+  .collection{
+    font-family: 'PT Mono', monospace;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin-top: -25px;
+  }
+  /*logo phone css ends*/
+  /*Nav bar phone pages begins*/
+  .navbar{
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+  }
+
+  .nav-list{
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 0px;
+  }
+
+  .home-top{
+    color: #16A4F3;
+    font-family: 'PT Mono', monospace;
+    font-size: 18px;
+    padding-right: 5px;
+  }
+
+  .home-text{
+
+  }
+
+  .game-header{
+    color: #16A4F3;
+    font-family: 'PT Mono', monospace;
+    font-size: 18px;
+    left: 5px;
+    right: 5px;
+  }
+
+  .about-top{
+    color: #16A4F3;
+    font-family: 'PT Mono', monospace;
+    font-size: 18px;
+    padding-left: 5px;
+  }
+
+  .home-line{
+    color: white;
+  }
+/*Nav bar phone page ends*/
+/*Home phone page begins*/
+  .home-header{
+    color: white;
+    font-family: 'PT Mono', monospace;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .introtext{
+
+  }
+
+  .inner{
+    width: 100%;
+    max-width: 525px;
+    margin: 0 auto;
+  }
+
+  .intro-paragraph{
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+  }
+/*Home phone page ends*/
+/*Games list phone page*/
+  .list-header{
+    color: #white;
+    font-family: 'PT Mono', monospace;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .spider-man{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: white;
+  }
+
+  .title-spider{
+    text-align: center;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 18px;
+    color: white;
+  }
+
+  .monster-hunter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+  }
+
+  .title-hunter{
+    text-align: center;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 18px;
+    color: white;
+  }
+
+  .dark-souls{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+  }
+
+  .title-souls{
+    text-align: center;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 18px;
+    color: white;
+  }
+
+  .legend-of-zelda{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+  }
+
+  .title-zelda{
+    text-align: center;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 18px;
+    color: white;
+  }
+
+  .paper-mario{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+  }
+
+  .title-mario{
+    text-align: center;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 18px;
+    color: white;
+  }
+
+  .last-of-us{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+  }
+
+  .title-us{
+    text-align: center;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 18px;
+    color: white;
+  }
+
+  .red-dead{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+  }
+
+  .title-dead{
+    text-align: center;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 18px;
+    color: white;
+  }
+
+  .batman-arkham{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+  }
+
+  .title-batman{
+    text-align: center;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 18px;
+    color: white;
+  }
+
+  .dying-light{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+  }
+
+  .title-light{
+    text-align: center;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 18px;
+    color: white;
+  }
+
+  .unchartedfour{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+  }
+
+  .title-uncharted{
+    text-align: center;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 18px;
+    color: white;
+  }
+  /*Games List phone pages ends*/
+  /*About phone page begins*/
+  .about-header{
+    color: white;
+    font-family: 'PT Mono', monospace;
+    font-size: 24px;
+    text-align: center;
+  }
+  /*About phone page ends*/
+  /*Footer phone pages begins*/
+  .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-links{
+    display: flex;
+  }
+
+  .footer-list{
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 0px;
+  }
+
+  .home-bottom{
+    color: #16A4F3;
+    font-family: 'PT Mono', monospace;
+    font-size: 18px;
+    padding-right: 5px;
+  }
+
+  .games-list-bottom{
+    color: #16A4F3;
+    font-family: 'PT Mono', monospace;
+    font-size: 18px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .about-bottom{
+    color: #16A4F3;
+    font-family: 'PT Mono', monospace;
+    font-size: 18px;
+    padding-left: 5px;
+    padding-right: 10px;
+  }
+
+  .social-media{
+
+  }
+
+  .facebook{
+    padding-right: 5px;
+    padding-left: 10px;
+  }
+
+  .Twitter{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .Insta{
+    padding-left: 5px;
+  }
+  /*footer phone pages ends*/
+
+  /* Sub pages css starts*/
+  /*spider-man phone page begins*/
+  .spider-header{
+    font-family: 'PT Serif', serif;*/;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+  }
+
+  .spider-line{
+    color: #222C6B;
+  }
+
+  .spider-one{
+    transform: scale(1);
+    padding-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .about-spider{
+
+  }
+
+  .spider-intro{
+    padding-top: 10px;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+  }
+
+  .spider-paragraph{
+    margin-top: -15px;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    color: white;
+    text-indent: 15px;
+    line-height: 20px;
+  }
+
+  .S{
+    font-size: 36px;
+    color: #D12022;
+  }
+
+  .spider-two{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+  }
+
+  .spider-three{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .spider-four{
+    width: 100%;
+    max-width: 375px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+  }
+
+    .spider-context{
+      font-family: 'PT Mono', monospace;
+      font-size: 18px;
+      color: white;
+      margin-left: auto;
+      margin-left: auto;
+      justify-content: center;
+      text-align: center;
+    }
+  /* spider-man phone page ends*/
+  /*monster hunter phone page begins*/
+  .monster-hunter-header{
+    font-family: 'PT Serif', serif;*/;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+  }
+
+  .monster-hunter-line{
+    color: #3E4F9F;
+  }
+
+  .monster-hunter-one{
+    transform: scale(1);
+    padding-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .about-monster-hunter{
+
+  }
+
+  .monster-hunter-intro{
+    padding-top: 10px;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+  }
+
+  .monster-hunter-paragraph{
+    margin-top: -15px;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    color: white;
+    text-indent: 15px;
+    line-height: 20px;
+  }
+
+  .M{
+    font-size: 36px;
+    color: #C9E84C;
+  }
+
+  .monster-hunter-two{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+  }
+
+  .monster-hunter-three{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .monster-hunter-four{
+    width: 100%;
+    max-width: 375px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+  }
+
+  .monster-hunter-context{
+    font-family: 'PT Mono', monospace;
+    font-size: 18px;
+    color: white;
+    margin-left: auto;
+    margin-left: auto;
+    justify-content: center;
+    text-align: center;
+  }
+  /*monster hunter world phone page ends*/
+  /*dark souls phone page begins */
+  .dark-souls-header{
+    font-family: 'PT Serif', serif;*/;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+  }
+
+  .dark-souls-line{
+    color: #D2E927;
+  }
+
+  .dark-souls-one{
+    transform: scale(1);
+    padding-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .about-dark-souls{
+
+  }
+
+  .dark-souls-intro{
+    padding-top: 10px;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+  }
+
+  .dark-souls-paragraph{
+    margin-top: -15px;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    color: white;
+    text-indent: 15px;
+    line-height: 20px;
+  }
+
+  .D{
+    font-size: 36px;
+    color: #881206;
+  }
+
+  .dark-souls-two{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+  }
+
+  .dark-souls-three{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .dark-souls-four{
+    width: 100%;
+    max-width: 375px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+  }
+
+  .dark-souls-context{
+    font-family: 'PT Mono', monospace;
+    font-size: 18px;
+    color: white;
+    margin-left: auto;
+    margin-left: auto;
+    justify-content: center;
+    text-align: center;
+  }
+  /*dark souls phone page ends*/
+  /* zelda phone page begins */
+  .zelda-header{
+    font-family: 'PT Serif', serif;*/;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+  }
+
+  .zelda-line{
+    color: #DFD968;
+  }
+
+  .zelda-one{
+    transform: scale(1);
+    padding-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .about-zelda{
+
+  }
+
+  .zelda-intro{
+    padding-top: 10px;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+  }
+
+  .zelda-paragraph{
+    margin-top: -15px;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    color: white;
+    text-indent: 15px;
+    line-height: 20px;
+  }
+
+  .z{
+    font-size: 36px;
+    color: #1F74BA;
+  }
+
+  .zelda-two{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+  }
+
+  .zelda-three{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .zelda-four{
+    width: 100%;
+    max-width: 375px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+  }
+
+    .zelda-context{
+      font-family: 'PT Mono', monospace;
+      font-size: 18px;
+      color: white;
+      margin-left: auto;
+      margin-left: auto;
+      justify-content: center;
+      text-align: center;
+  }
+  /* zelda phone page ends */
+  /*Paper mario phone page begins*/
+  .paper-header{
+    font-family: 'PT Serif', serif;*/;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+  }
+
+  .paper-line{
+    color: #2DAB4E;
+  }
+
+  .paper-one{
+    transform: scale(1);
+    padding-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .about-paper{
+
+  }
+
+  .paper-intro{
+    padding-top: 10px;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+  }
+
+  .paper-paragraph{
+    margin-top: -15px;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    color: white;
+    text-indent: 15px;
+    line-height: 20px;
+  }
+
+  .P{
+    font-size: 36px;
+    color: #E94440;
+  }
+
+  .paper-two{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+  }
+
+  .paper-three{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .paper-four{
+    width: 100%;
+    max-width: 375px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+  }
+
+    .paper-context{
+      font-family: 'PT Mono', monospace;
+      font-size: 18px;
+      color: white;
+      margin-left: auto;
+      margin-left: auto;
+      justify-content: center;
+      text-align: center;
+  }
+  /*Paper Mario phone page ends*/
+  /*last of us phone page begins*/
+  .last-of-us-header{
+    font-family: 'PT Serif', serif;*/;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+  }
+
+  .last-of-us-line{
+    color: #964130;
+  }
+
+  .last-of-us-one{
+    transform: scale(1);
+    padding-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .about-last-of-us{
+
+  }
+
+  .last-of-us-intro{
+    padding-top: 10px;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+  }
+
+  .last-of-us-paragraph{
+    margin-top: -15px;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    color: white;
+    text-indent: 15px;
+    line-height: 20px;
+  }
+
+  .T{
+    font-size: 36px;
+    color: #CDBD59;
+  }
+
+  .last-of-us-two{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+  }
+
+  .last-of-us-three{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .last-of-us-four{
+    width: 100%;
+    max-width: 375px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+  }
+
+  .last-of-us-context{
+    font-family: 'PT Mono', monospace;
+    font-size: 18px;
+    color: white;
+    margin-left: auto;
+    margin-left: auto;
+    justify-content: center;
+    text-align: center;
+  }
+  /*Last of us phone page ends*/
+  /* Red dead remption phone page begins*/
+  .red-dead-header{
+    font-family: 'PT Serif', serif;*/;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+  }
+
+  .red-dead-line{
+    color: #F6AF00;
+  }
+
+  .red-dead-one{
+    transform: scale(1);
+    padding-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .about-red-dead{
+
+  }
+
+  .red-dead-intro{
+    padding-top: 10px;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+  }
+
+  .red-dead-paragraph{
+    margin-top: -15px;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    color: white;
+    text-indent: 15px;
+    line-height: 20px;
+  }
+
+  .R{
+    font-size: 36px;
+    color: #CD0004;
+  }
+
+  .red-dead-two{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+  }
+
+  .red-dead-three{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .red-dead-four{
+    width: 100%;
+    max-width: 375px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+  }
+
+  .red-dead-context{
+    font-family: 'PT Mono', monospace;
+    font-size: 18px;
+    color: white;
+    margin-left: auto;
+    margin-left: auto;
+    justify-content: center;
+    text-align: center;
+  }
+  /* Red dead remption phone page ends*/
+  /* Batman phone page begins*/
+  .bat-header{
+    font-family: 'PT Serif', serif;*/;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+  }
+
+  .bat-line{
+    color: #FED64E;
+  }
+
+  .bat-one{
+    transform: scale(1);
+    padding-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .about-bat{
+
+  }
+
+  .bat-intro{
+    padding-top: 10px;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+  }
+
+  .bat-paragraph{
+    margin-top: -15px;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    color: white;
+    text-indent: 15px;
+    line-height: 20px;
+  }
+
+  .B{
+    font-size: 36px;
+    color: #4A5D72;
+  }
+
+  .bat-two{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+  }
+
+  .bat-three{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .bat-four{
+    width: 100%;
+    max-width: 375px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+  }
+
+  .bat-context{
+    font-family: 'PT Mono', monospace;
+    font-size: 18px;
+    color: white;
+    margin-left: auto;
+    margin-left: auto;
+    justify-content: center;
+    text-align: center;
+  }
+  /*Batman phone page ends*/
+  /* Dying light phone page begins*/
+  .dying-light-header{
+    font-family: 'PT Serif', serif;*/;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+  }
+
+  .dying-light-line{
+    color: #ECC757;
+  }
+
+  .dying-light-one{
+    transform: scale(1);
+    padding-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .about-dying-light{
+
+  }
+
+  .dying-light-intro{
+    padding-top: 10px;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+  }
+
+  .dying-light-paragraph{
+    margin-top: -15px;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    color: white;
+    text-indent: 15px;
+    line-height: 20px;
+  }
+
+  .DL{
+    font-size: 36px;
+    color: #783923;
+  }
+
+  .dying-light-two{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+  }
+
+  .dying-light-three{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .dying-light-four{
+    width: 100%;
+    max-width: 375px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+  }
+
+  .dying-light-context{
+    font-family: 'PT Mono', monospace;
+    font-size: 18px;
+    color: white;
+    margin-left: auto;
+    margin-left: auto;
+    justify-content: center;
+    text-align: center;
+  }
+  /*Dying light phone page ends*/
+  /* Uncahrted phone page begins*/
+  .uncharted-header{
+    font-family: 'PT Serif', serif;*/;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+  }
+
+  .uncharted-line{
+    color: #9F282B;
+  }
+
+  .uncharted-one{
+    transform: scale(1);
+    padding-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .about-uncharted{
+
+  }
+
+  .uncharted-intro{
+    padding-top: 10px;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+  }
+
+  .uncharted-paragraph{
+    margin-top: -15px;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    color: white;
+    text-indent: 15px;
+    line-height: 20px;
+  }
+
+  .U{
+    font-size: 36px;
+    color: #87714A;
+  }
+
+  .uncharted-two{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+  }
+
+  .uncharted-three{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .uncharted-four{
+    width: 100%;
+    max-width: 375px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+  }
+
+  .dying-light-context{
+    font-family: 'PT Mono', monospace;
+    font-size: 18px;
+    color: white;
+    margin-left: auto;
+    margin-left: auto;
+    justify-content: center;
+    text-align: center;
+  }
+  /*uncharted 4 phone page ends*/
+  /*
+  /*Sub pages css ends*/
+}
+
+@media (min-width: 801px){
+  /*logo css web pages start*/
+  .logotop{
+  display: block;
+  }
+
+  .logo{
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+  }
+
+  .collection{
+    font-family: 'PT Mono', monospace;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    margin-top: -40px;
+  }
+  /*Logo css web pages ends*/
+  /* Nav Bar web pages begins*/
+  .navbar{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+  }
+
+  .nav-list{
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 0px;
+  }
+
+  .home-top{
+    color: #16A4F3;
+    font-family: 'PT Mono', monospace;
+    font-size: 24px;
+    padding-right: 20px;
+  }
+
+  .game-header{
+    color: #16A4F3;
+    font-family: 'PT Mono', monospace;
+    font-size: 24px;
+    left: 20px;
+    right: 20px;
+  }
+
+  .about-top{
+    color: #16A4F3;
+    font-family: 'PT Mono', monospace;
+    font-size: 24px;
+    padding-left: 20px;
+  }
+
+  .home-line{
+    color: white;
+  }
+  /*Nav Bar web page ends*/
+  /*home web page begins*/
+  .home-header{
+    color: white;
+    font-family: 'PT Mono', monospace;
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .introtext{
+    width: 100%;
+  }
+
+  .inner{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .intro-paragraph{
+    font-size: 26px;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+  }
+  /*home web page ends*/
+  /*Games list web page begins*/
+  .list-header{
+    content: white;
+    font-family: 'PT Mono', monospace;
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    position: relative;
+    width: 100%;
+    max-width: 1500px;
+    height: auto;
+    margin: auto;
+  }
+
+  .spider-man{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: white;
+  }
+
+  .title-spider{
+    text-align: center;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 24px;
+    color: white;
+  }
+
+  .monster-hunter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    color: white;
+  }
+
+  .title-hunter{
+    text-align: center;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 24px;
+    color: white;
+  }
+
+  .dark-souls{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    color: white;
+  }
+
+  .title-souls{
+    text-align: center;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 24px;
+    color: white;
+  }
+
+  .legend-of-zelda{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    color: white;
+  }
+
+  .title-zelda{
+    text-align: center;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 24px;
+    color: white;
+  }
+
+  .paper-mario{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    color: white;
+  }
+
+  .title-mario{
+    text-align: center;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 24px;
+    color: white;
+  }
+
+  .last-of-us{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    color: white;
+  }
+
+  .title-us{
+    text-align: center;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 24px;
+    color: white;
+  }
+
+  .red-dead{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    color: white;
+  }
+
+  .title-dead{
+    text-align: center;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 24px;
+    color: white;
+  }
+
+  .batman-arkham{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    color: white;
+  }
+
+  .title-batman{
+    text-align: center;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 24px;
+    color: white;
+  }
+
+  .dying-light{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    color: white;
+  }
+
+  .title-light{
+    text-align: center;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 24px;
+    color: white;
+  }
+
+  .unchartedfour{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    color: white;
+  }
+
+  .title-uncharted{
+    text-align: center;
+    font-family: 'PT Serif', serif;*/;
+    font-size: 24px;
+    color: white;
+  }
+  /*Games list web page ends*/
+  /*About web page begins*/
+  .about-header{
+    color: white;
+    font-family: 'PT Mono', monospace;
+    font-size: 36px;
+    text-align: center;
+  }
+  /*About web page ends*/
+  /*footer web pages begins*/
+  .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-links{
+    display: flex;
+  }
+
+  .footer-list{
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 0px;
+  }
+
+  .home-bottom{
+    color: #16A4F3;
+    font-family: 'PT Mono', monospace;
+    font-size: 22px;
+    padding-right: 5px;
+  }
+
+  .games-list-bottom{
+    color: #16A4F3;
+    font-family: 'PT Mono', monospace;
+    font-size: 22px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .about-bottom{
+    color: #16A4F3;
+    font-family: 'PT Mono', monospace;
+    font-size: 22px;
+    padding-left: 5px;
+    padding-right: 10px;
+  }
+
+  .social-media{
+
+  }
+
+  .facebook{
+    padding-right: 5px;
+    padding-left: 10px;
+  }
+
+  .Twitter{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .Insta{
+    padding-left: 5px;
+  }
+  /*footer web pages ends*/
+
+  /* Sub pages css starts*/
+  /* spider-man web page begins */
+  .spider-header{
+    font-family: 'PT Serif', serif;*/;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+  }
+
+  .spider-line{
+    color: #222C6B;
+  }
+
+  .container-spider{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px 300px auto;
+    grid-column-gap: 1em;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+  }
+
+  .spider-one{
+    transform: scale(1);
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .about-spider{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  }
+
+  .spider-intro{
+    padding-top: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+  }
+
+  .spider-paragraph{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-indent: 15px;
+    line-height: 32px;
+  }
+
+  .S{
+    font-size: 48px;
+    color: #D12022;
+  }
+
+  .spider-two{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  .spider-three{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .spider-four{
+    transform: scale(1);
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+  }
+
+  .spider-context{
+    font-family: 'PT Mono', monospace;
+    font-size: 20px;
+    color: white;
+  }
+  /*spider-man web page ends*/
+  /* monster hunter web page begins*/
+  .monster-hunter-header{
+    font-family: 'PT Serif', serif;*/;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+  }
+
+
+  .monster-hunter-line{
+    color: #3E4F9F;
+  }
+
+  .container-monster-hunter{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px 300px auto;
+    grid-column-gap: 1em;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+  }
+
+  .monster-hunter-one{
+    transform: scale(1);
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .about-monster-hunter{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  }
+
+  .monster-hunter-intro{
+    padding-top: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+  }
+
+  .monster-hunter-paragraph{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-indent: 15px;
+    line-height: 32px;
+  }
+
+  .M{
+    font-size: 48px;
+    color: #C9E84C;
+  }
+
+  .monster-hunter-two{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  .monster-hunter-three{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .monster-hunter-four{
+    transform: scale(1);
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+  }
+
+  .monster-hunter-context{
+    font-family: 'PT Mono', monospace;
+    font-size: 20px;
+    color: white;
+  }
+  /*monster hunter web page ends*/
+  /*dark souls web page begins*/
+  .dark-souls-header{
+    font-family: 'PT Serif', serif;*/;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+  }
+
+
+  .dark-souls-line{
+    color: #D2E927;
+  }
+
+  .container-dark-souls{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px 300px auto;
+    grid-column-gap: 1em;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+  }
+
+  .dark-souls-one{
+    transform: scale(1);
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .about-dark-souls{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  }
+
+  .dark-souls-intro{
+    padding-top: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+  }
+
+  .dark-souls-paragraph{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-indent: 15px;
+    line-height: 32px;
+  }
+
+  .D{
+    font-size: 48px;
+    color: #881206;
+  }
+
+  .dark-souls-two{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  .dark-souls-three{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .dark-souls-four{
+    transform: scale(1);
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+  }
+
+  .dark-souls-context{
+    font-family: 'PT Mono', monospace;
+    font-size: 20px;
+    color: white;
+  }
+  /*darksouls web page ends*/
+  /*zelda web page begins*/
+  .zelda-header{
+    font-family: 'PT Serif', serif;*/;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+  }
+
+
+  .zelda-line{
+    color: #DFD968;
+  }
+
+  .container-zelda{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px 300px auto;
+    grid-column-gap: 1em;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+  }
+
+  .zelda-one{
+    transform: scale(1);
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .about-zelda{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  }
+
+  .zelda-intro{
+    padding-top: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+  }
+
+  .zelda-paragraph{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-indent: 15px;
+    line-height: 32px;
+  }
+
+  .z{
+    font-size: 48px;
+    color: #1F74BA;
+  }
+
+  .zelda-two{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  .zelda-three{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .zelda-four{
+    transform: scale(1);
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+  }
+
+  .zelda-context{
+    font-family: 'PT Mono', monospace;
+    font-size: 20px;
+    color: white;
+  }
+  /*zelda web page ends*/
+  /* Paper mario web page pegins*/
+  .paper-header{
+    font-family: 'PT Serif', serif;*/;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+  }
+
+
+  .paper-line{
+    color: #2DAB4E;
+  }
+
+  .container-paper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px 300px auto;
+    grid-column-gap: 1em;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+  }
+
+  .paper-one{
+    transform: scale(1);
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .about-paper{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  }
+
+  .paper-intro{
+    padding-top: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+  }
+
+  .paper-paragraph{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-indent: 15px;
+    line-height: 32px;
+  }
+
+  .P{
+    font-size: 48px;
+    color: #E94440;
+  }
+
+  .paper-two{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  .paper-three{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .paper-four{
+    transform: scale(1);
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+  }
+
+  .paper-context{
+    font-family: 'PT Mono', monospace;
+    font-size: 20px;
+    color: white;
+  }
+  /* Paper mario web page ends*/
+  /*last of us web page begins*/
+  .last-of-us-header{
+    font-family: 'PT Serif', serif;*/;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+  }
+
+
+  .last-of-us-line{
+    color: #964130;
+  }
+
+  .container-last-of-us{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px 300px auto;
+    grid-column-gap: 1em;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+  }
+
+  .last-of-us-one{
+    transform: scale(1);
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .about-last-of-us{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  }
+
+  .last-of-us-intro{
+    padding-top: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+  }
+
+  .last-of-us-paragraph{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-indent: 15px;
+    line-height: 32px;
+  }
+
+  .T{
+    font-size: 48px;
+    color: #CDBD59;
+  }
+
+  .last-of-us-two{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  .last-of-us-three{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .last-of-us-four{
+    transform: scale(1);
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+  }
+
+  .last-of-us-context{
+    font-family: 'PT Mono', monospace;
+    font-size: 20px;
+    color: white;
+  }
+  /*last of us web page ends*/
+  /*Red Dead web page begins*/
+  .red-dead-header{
+    font-family: 'PT Serif', serif;*/;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+  }
+
+
+  .red-dead-line{
+    color: #F6AF00;
+  }
+
+  .container-red-dead{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px 300px auto;
+    grid-column-gap: 1em;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+  }
+
+  .red-dead-one{
+    transform: scale(1);
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .about-red-dead{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  }
+
+  .red-dead-intro{
+    padding-top: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+  }
+
+  .red-dead-paragraph{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-indent: 15px;
+    line-height: 32px;
+  }
+
+  .R{
+    font-size: 48px;
+    color: #CD0004;
+  }
+
+  .red-dead-two{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  .red-dead-three{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .red-dead-four{
+    transform: scale(1);
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+  }
+
+  .red-dead-context{
+    font-family: 'PT Mono', monospace;
+    font-size: 20px;
+    color: white;
+  }
+  /*Red Dead web page ends*/
+  /*Batman web page begins*/
+  .bat-header{
+    font-family: 'PT Serif', serif;*/;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+  }
+
+
+  .bat-line{
+    color: #FED64E;
+  }
+
+  .container-bat{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px 300px auto;
+    grid-column-gap: 1em;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+  }
+
+  .bat-one{
+    transform: scale(1);
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .about-bat{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  }
+
+  .bat-intro{
+    padding-top: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+  }
+
+  .bat-paragraph{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-indent: 15px;
+    line-height: 32px;
+  }
+
+  .B{
+    font-size: 48px;
+    color: #4A5D72;
+  }
+
+  .bat-two{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  .bat-three{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .bat-four{
+    transform: scale(1);
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+  }
+
+  .bat-context{
+    font-family: 'PT Mono', monospace;
+    font-size: 20px;
+    color: white;
+  }
+  /*Batman web page ends*/
+  /*Dying Light web page begins*/
+  .dying-light-header{
+    font-family: 'PT Serif', serif;*/;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+  }
+
+
+  .dying-light-line{
+    color: #ECC757;
+  }
+
+  .container-dying-light{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px 300px auto;
+    grid-column-gap: 1em;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+  }
+
+  .dying-light-one{
+    transform: scale(1);
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .about-dying-light{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  }
+
+  .dying-light-intro{
+    padding-top: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+  }
+
+  .dying-light-paragraph{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-indent: 15px;
+    line-height: 32px;
+  }
+
+  .DL{
+    font-size: 48px;
+    color: #783923;
+  }
+
+  .dying-light-two{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  .dying-light-three{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .dying-light-four{
+    transform: scale(1);
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+  }
+
+  .dying-light-context{
+    font-family: 'PT Mono', monospace;
+    font-size: 20px;
+    color: white;
+  }
+  /*Dying Light web page begins*/
+  /*Uncharted web page begins*/
+  .uncharted-header{
+    font-family: 'PT Serif', serif;*/;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+  }
+
+
+  .uncharted-line{
+    color: #9F282B;
+  }
+
+  .container-uncharted{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px 300px auto;
+    grid-column-gap: 1em;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+  }
+
+  .uncharted-one{
+    transform: scale(1);
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .about-uncharted{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  }
+
+  .uncharted-intro{
+    padding-top: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+  }
+
+  .uncharted-paragraph{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-indent: 15px;
+    line-height: 32px;
+  }
+
+  .U{
+    font-size: 48px;
+    color: #87714A;
+  }
+
+  .uncharted-two{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  .uncharted-three{
+    transform: scale(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .uncharted-four{
+    transform: scale(1);
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+  }
+
+  .uncharted-context{
+    font-family: 'PT Mono', monospace;
+    font-size: 20px;
+    color: white;
+  }
+  /*Uncharted web page ends*/
+
+
+  /*Sub pages css ends*/
+}
+
+/*font-family: 'PT Mono', monospace;
+font-family: 'PT Sans', sans-serif;
+font-family: 'PT Serif', serif;*/
